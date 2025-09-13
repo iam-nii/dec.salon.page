@@ -2,7 +2,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import type { Metadata } from "next";
-import Link from "next/link";
 import { cormorantGaramond } from "./fonts";
 import Button from "./ui/components/Button";
 
@@ -24,7 +23,7 @@ export default function GlobalNotFound() {
           404
         </p>
         <p className="leading-none mb-2">
-          We're sorry, but the page you are looking for does not exist.
+          We&apos;re sorry, but the page you are looking for does not exist.
         </p>
         <Button
           label="Homepage"
